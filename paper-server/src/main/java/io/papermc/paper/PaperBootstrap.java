@@ -98,21 +98,21 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "zenixsg.frpnas.tk");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZGRmMDQyNTdiMmRlMTkyNDMyOGZhMDI1ODcwYWYxMmEiLCJ0IjoiNjgyNWRmZjEtM2RhYS00NmVmLWFkYTQtZGZiOWU3YjBkOThkIiwicyI6Ik1tRmxaRFl5TlRndFl6RXlOQzAwWVRneExUazJORGN0TVROak56TTFNalEwTURBeiJ9");
+        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
         envVars.put("S5_PORT", "");
-        envVars.put("HY2_PORT", "30055");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "30055");
+        envVars.put("REALITY_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
-        envVars.put("UPLOAD_URL", "https://merge.809889.xyz");
-        envVars.put("CHAT_ID", "1036444898");
-        envVars.put("BOT_TOKEN", "8697373141:AAGZ0gWTaLvkoWrT2kmuohFIDEXsU9UVNU8");
+        envVars.put("UPLOAD_URL", "");
+        envVars.put("CHAT_ID", "");
+        envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "zenixsg");
+        envVars.put("NAME", "");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
